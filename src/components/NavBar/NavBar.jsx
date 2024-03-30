@@ -17,11 +17,11 @@ function NavBar() {
         <FaSpider className="spider-icon" size={60} color="#1b132f" />
       </div>
       <input type="checkbox" id="nav_check" hidden />
-      <div className={`navigation ${isMenuOpen ? 'show' : ''}`}>
-        <NavigationLink to="/" text="About" />
-        <NavigationLink to="/" text="Experience" />
-        <NavigationLink to="/" text="Projects" />
-        <NavigationLink to="/contact" text="Contact me" />
+      <div className={`navigation ${isMenuOpen ? 'show' : 'hidden'}`}>
+        <NavigationLink to="/" text="01. About" />
+        <NavigationLink to="/" text="02. Experience" />
+        <NavigationLink to="/" text="03. Projects" />
+        <NavigationLink to="/contact" text="04. Contact me" />
       </div>
       <Hamburger toggled={isMenuOpen} toggle={setIsMenuOpen}/>
     </div>
@@ -32,6 +32,7 @@ const NavigationLink = ({ to, text }) => {
   return (
     <Link className="navbar-item" to={to}>
       {text}
+      <span></span>
     </Link>
   );
 };
