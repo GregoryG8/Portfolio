@@ -33,7 +33,7 @@ function NavBar() {
   return (
     <div className="navbar">
       <div ref={glitch.ref} className="logo-navbar" onClick={() => navigate("/")}>
-          <FaSpider className="spider-icon" size={60} color="#1b132f" />
+          <FaSpider className="spider-icon" size={60} color="#182753" />
       </div>
       <input type="checkbox" id="nav_check" hidden />
       <div className={`navigation ${isMenuOpen ? "show" : "hidden"}`}>
