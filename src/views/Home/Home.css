@@ -1,0 +1,26 @@
+.border {
+  color: white;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, 1px 1px 0 black,
+    -1px 1px 0 black;
+}
+
+.wave{
+    color: #09f;
+    animation: wave 3s ease-in-out infinite;
+}
+
+@keyframes wave {
+    0%, 100% {
+        clip-path: polygon(
+            0% 47%,
+            10% 48%,
+            33% 54%,
+            54% 60%,
+            70% 61%,
+            84% 59%,
+            100% 52%,
+            100% 100%,
+            33% 54%,
+        );
+    }
+}

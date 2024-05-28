@@ -6,7 +6,9 @@ function Home() {
   return (
     <div>
       <NavBar/>
-      hola como estas
+      <h1>Hola, mi nombre es</h1> 
+      <h1 className='border'>Gregory Gonzalez</h1>
+      <h1 className='wave'>Gregory Gonzalez</h1>
       
     </div>
   )
