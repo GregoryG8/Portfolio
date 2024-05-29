@@ -40,7 +40,7 @@ function NavBar() {
         <NavigationLink to="/" text="About" />
         <NavigationLink to="/" text="Experience" />
         <NavigationLink to="/" text="Projects" />
-        <NavigationLink to="/contact" text="Contact me" />
+        <NavigationLink to="/" text="Contact me" />
       </div>
       <Hamburger toggled={isMenuOpen} toggle={setIsMenuOpen} />
     </div>

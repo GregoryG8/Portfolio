@@ -1,26 +1,42 @@
-.border {
-  color: white;
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, 1px 1px 0 black,
-    -1px 1px 0 black;
+
+.text-container{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    padding: 5% 3% 5% 5%;
+    overflow-y: hidden;
 }
 
-.wave{
-    color: #09f;
-    animation: wave 3s ease-in-out infinite;
+.text-title{
+    width: 50%;
+
 }
 
-@keyframes wave {
-    0%, 100% {
-        clip-path: polygon(
-            0% 47%,
-            10% 48%,
-            33% 54%,
-            54% 60%,
-            70% 61%,
-            84% 59%,
-            100% 52%,
-            100% 100%,
-            33% 54%,
-        );
+.title-typed {
+    font-size: 6rem;
+    color: var(--text-color);
+    font-weight: 700;
+}
+
+.text-typed{
+    font-size: 2rem;
+    color: var(--text-color);
+}
+
+.particles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+@media (max-width: 768px) {
+    .title-typed {
+        font-size: 4.5rem;
+    }
+
+    .text-typed{
+        font-size: 2rem;
     }
 }
