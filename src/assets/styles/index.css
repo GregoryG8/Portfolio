@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+}
+
+* {
+  font-family: studiofeixen-variable, studiofeixen, Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Estilo personalizado para la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 5px; /* Ancho de la barra de desplazamiento */
+}
+
+/* Estilos para el riel de la barra de desplazamiento */
+::-webkit-scrollbar-track {
+  background-color: #c5d1f7ff; /* Color del fondo del riel */
+  border-radius: 5px; /* Borde redondeado */
+}
+
+/* Estilos para el mango (thumb) de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+  background-color: #379ae6ff;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #379;
+}
+
+button.btn-primary {
+  background: var(--primary-color);
+  text-transform: none;
+  color: #000;
+  font-size: 14px;
+  height: 36px;
+  width: 260px;
+}
+
+button.btn-secondary {
+  background: var(--secondary-color);
+  text-transform: none;
+  color: #fff;
+  font-size: 14px;
+  height: 36px;
+  width: 260px;
+}
+
+button.btn-primary:hover {
+  background: var(--primary-hover-color);
+}
+
+button.btn-secondary:hover {
+  background: var(--secondary-hover-color);
+}
