@@ -131,7 +131,7 @@ function Home() {
                 "I'm a passionate Software Developer!",
                 "I love creating stunning Frontend experiences.",
                 "Let's turn ideas into reality together!",
-                "Frontend Developer | Frontend Developer | Development Enthusiast | Lifelong Learner | Problem Solver",
+                "Frontend Developer | Development Enthusiast | Lifelong Learner | Problem Solver",
                 "Welcome to my portfolio!",
               ]}
               typeSpeed={30}
